@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/main"
+    android:padding="16dp">
+
+    <!-- TextView hiển thị tên và MSV -->
+    <TextView
+        android:id="@+id/studentInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:text="Nguyễn Trúc Quỳnh - 22115053122335"
+        android:textStyle="bold"
+        android:paddingBottom="16dp"/>
+s
+    <!-- ScrollView để cuộn qua tất cả tin nhắn -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/smsContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textSize="14sp" />
+    </ScrollView>
+</LinearLayout>
